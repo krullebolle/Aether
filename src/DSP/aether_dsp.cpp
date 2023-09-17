@@ -57,7 +57,7 @@ namespace Aether {
 		param_smooth.early_diffusion_mod_depth = 1000.f;
 		param_smooth.early_diffusion_feedback = 500.f;
 
-		param_smooth.late_delay = 1000.f;  // limited late delay to 1s for limiting processing power with use for mod
+		param_smooth.late_delay = 5000.f;
 		param_smooth.late_delay_mod_depth = 1000.f;
 		param_smooth.late_delay_line_feedback = 50.f;
 
